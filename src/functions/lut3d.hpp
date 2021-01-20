@@ -69,6 +69,7 @@ namespace IRAFLFunc
                     dst[(y * w + x) * 4 + 0] = crF[0] * (1 - tB) + crL[0] * tB;
                     dst[(y * w + x) * 4 + 1] = crF[1] * (1 - tB) + crL[1] * tB;
                     dst[(y * w + x) * 4 + 2] = crF[2] * (1 - tB) + crL[2] * tB;
+                    dst[(y * w + x) * 4 + 3] = src[(y * w + x) * 4 + 3];
                 }
         }
     }
