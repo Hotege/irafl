@@ -81,6 +81,7 @@ namespace IRAFLFunc
                     dst[(j * w + i) * 4 + 0] = gray;
                     dst[(j * w + i) * 4 + 1] = gray;
                     dst[(j * w + i) * 4 + 2] = gray;
+                    dst[(j * w + i) * 4 + 3] = src[(j * w + i) * 4 + 3];
                 }
         }
     }
