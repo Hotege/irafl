@@ -22,6 +22,12 @@ typedef struct IRAFL_VP
     uint32_t k;
 } IRAFL_VP;
 
+typedef struct IRAFL_LUT3DIMAGE
+{
+    unsigned char* data;
+    long w, h, size;
+} IRAFL_LUT3DIMAGE;
+
 #if defined(__cplusplus)
 };
 #endif
