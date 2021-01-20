@@ -14,6 +14,7 @@ file(
     _main.cpp
     src/irafl.cpp
     src/functions/*.cpp
+    src/irafl_wrapper.cpp
 )
 
 include_directories(
